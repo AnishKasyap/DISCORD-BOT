@@ -35,4 +35,4 @@ async def on_message(message):
   if any(word in msg for word in sad_words):
    await message.channel.send(random.choice(starter_encouragements))
 
-client.run('ODk5MDA5OTQ5NjkzMjY3OTc4.YWsiQg.CmN1zcfNPeVPLmrnCbIjeYNVrHU')
+client.run('<your bot's token>')
